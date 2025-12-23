@@ -1,0 +1,8 @@
+pandas<3,>=2.2
+numpy<3,>=1.26
+scikit-learn<2,>=1.4
+requests<3,>=2.31
+tqdm<5,>=4.66
+
+[dev]
+pytest<9,>=7.4

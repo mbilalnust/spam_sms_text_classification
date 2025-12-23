@@ -1,3 +1,18 @@
+Metadata-Version: 2.4
+Name: spam-sms
+Version: 0.1.0
+Summary: Spam SMS classifier with TF-IDF + Logistic Regression
+Author: mbilalnust
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pandas<3,>=2.2
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: scikit-learn<2,>=1.4
+Requires-Dist: requests<3,>=2.31
+Requires-Dist: tqdm<5,>=4.66
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=7.4; extra == "dev"
+
 # Spam SMS Text Classification
 
 Clean, reproducible spam/ham classifier with data download, TF-IDF + Logistic Regression pipeline, and simple CLI.

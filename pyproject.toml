@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spam-sms"
+version = "0.1.0"
+description = "Spam SMS classifier with TF-IDF + Logistic Regression"
+readme = "README.md"
+authors = [{name = "mbilalnust"}]
+requires-python = ">=3.9"
+dependencies = [
+  "pandas>=2.2,<3",
+  "numpy>=1.26,<3",
+  "scikit-learn>=1.4,<2",
+  "requests>=2.31,<3",
+  "tqdm>=4.66,<5"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4,<9"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-q"
+pythonpath = ["src"]

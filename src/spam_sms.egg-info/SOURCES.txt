@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/spam_sms/__init__.py
+src/spam_sms/cli.py
+src/spam_sms/data.py
+src/spam_sms/pipeline.py
+src/spam_sms.egg-info/PKG-INFO
+src/spam_sms.egg-info/SOURCES.txt
+src/spam_sms.egg-info/dependency_links.txt
+src/spam_sms.egg-info/requires.txt
+src/spam_sms.egg-info/top_level.txt
+tests/test_data.py
+tests/test_pipeline.py
